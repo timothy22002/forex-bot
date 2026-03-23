@@ -19,9 +19,9 @@ from datetime import datetime
 #  KONFIGURASI — dibaca dari Environment Variables Railway
 #  (tidak perlu hardcode di sini, aman & tidak bocor)
 # ─────────────────────────────────────────────────────────
-TWELVE_DATA_API_KEY = os.environ.get("TWELVE_DATA_API_KEY", "")
-TELEGRAM_BOT_TOKEN  = os.environ.get("TELEGRAM_BOT_TOKEN",  "")
-TELEGRAM_CHAT_ID    = os.environ.get("TELEGRAM_CHAT_ID",    "")
+TWELVE_DATA_API_KEY = "f01acf7646b54cfa855db26609d68c75"    # dari twelvedata.com
+TELEGRAM_BOT_TOKEN  = "8705713017:AAGiF3WcOL_h000Cr-vAnvjR4au_KYBB6cY"        # dari @BotFather
+TELEGRAM_CHAT_ID    = "6574758309"    
 # ─────────────────────────────────────────────────────────
 
 PAIRS        = ["XAU/USD", "GBP/JPY", "EUR/USD"]
